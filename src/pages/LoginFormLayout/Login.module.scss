@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  justify-content: center;
+  max-width: 430px;
+  width: 100%;
+  margin: 0 auto 80px;
+}
+.inputWrap{
+  margin-bottom: 20px;
+}
+.containerWrap{
+  text-align: center;
+}
+.rememberMe{
+  margin-bottom: 20px;
+  span{
+    width: 307px;
+    height: 22px;
+    margin-left: 13px;
+    font-family: 'Manrope-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A8AAAE;
+  }
+}
+.customCheckBox {
+  display: flex;
+  align-items: center;
+}
+
+.customCheckBox input {
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.checkBox {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #676A71;
+  border-radius: 2px;
+}
+
+.checkMark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: auto;
+  display: none;
+}
+
+.customCheckBox input:checked ~ .checkBox .checkMark {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.buttonWrap{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.resetPassword{
+  display: block;
+  margin: 20px 0 40px 0;
+  color: #009CB4;
+  font-family: 'Manrope-Regular',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-decoration-line: underline;
+}
+.error {
+  p {
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E0371F;
+    margin-top: 5px;
+  }
+}

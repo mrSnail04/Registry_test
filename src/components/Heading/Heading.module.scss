@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: local('Manrope'),
+    url('../../assert/font/manrope/Manrope-Bold.woff2') format('woff2')
+
+}
+.root{
+    color: #231F20;
+    text-align: center;
+    font-family: 'Manrope-Bold', sans-serif;
+    font-style: normal;
+}
+
+.level1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+}
+
+.level2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.level3{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.level4{
+    margin: 0;
+    text-align: start;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.level5{
+    margin: 0;
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+.color_black{
+    color: #231F20;
+}
+.color_gray{
+    color: #4D4D4F;
+
+}

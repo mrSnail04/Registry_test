@@ -1,0 +1,122 @@
+.root {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+
+}
+.inputWrap{
+    position: relative;
+    margin-left:30px;
+}
+.logoFindWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 280px;
+}
+.headerWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+.iconNotifications {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border:0;
+    border-radius: 50%;
+    background: #F9F9FB;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.numberNotifications{
+    position: absolute;
+    justify-content: end;
+    text-align: center;
+    top: -20%;
+    left: 65%;
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 18px;
+    height: 18px;
+    border:0;
+    border-radius: 50%;
+    background: #009CB4;
+}
+.notificationsIconSVG{
+    fill: #009CB4;
+}
+.line{
+    margin: 0 20px 0 20px;
+    width: 2px;
+    height: 48px;
+    background: #F4F3F5;
+    border-radius: 3px;
+}
+.userName{
+    margin: 0 10px 0 19px;
+    color:#4D4D4F;
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.userButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #FFFFFF;
+    padding: 0;
+    cursor: pointer;
+}
+
+.submitIcon{
+    z-index: 1;
+    position: absolute;
+    top:14.5px;
+    left:12.5px;
+    width: 18px;
+    height: 18px;
+    background: url(../../assert/icons/Search.svg) no-repeat 50% 50%;
+    border:0;
+    cursor: pointer;
+}
+.notificationsIcon{
+    fill: #009CB4;
+}
+.numberNotifications{
+    position: absolute;
+}

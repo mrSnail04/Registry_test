@@ -1,0 +1,94 @@
+.footerWrap{
+    margin-top:80px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+.headingWrap{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.endLine{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EDEDF4;
+    border-radius: 3px;
+}
+.horizontalLine_Long{
+    border: none;
+    background-color: #EDEDF4;
+    height: 1px;
+    border-radius: 3px;
+}
+.logoBlockWrap{
+    width: 250px;
+}
+.developerBlockWrap{
+    margin-right: 40px;
+
+}
+.informationBlockWrap{
+    margin-right: 75px;
+}
+.supportBlockWrap{
+    width: 250px;
+    margin-right: 30px;
+}
+.contactBlockWrap{
+    width: 300px;
+}
+.footerLogo{
+    margin-bottom: 10px;
+}
+.textLogo{
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #676A71;
+    margin: 10px 0 0 0;
+    &_light{
+        margin-top: 5px;
+        color: #A8AAAE;
+    }
+}
+.textWrap{
+    margin-top: 40px;
+}
+.text{
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4D4D4F;
+    margin: 10px 0 0 0;
+    &_light{
+        margin-top: 0;
+        line-height: 21px;
+        color: #676A71;
+    }
+}
+.footerLink{
+    font-family: 'Manrope-Regular', sans-serif;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #009CB4;
+    text-decoration-line: underline;
+}
+.copyright{
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 20px;
+    color: #C6C6C6;
+}

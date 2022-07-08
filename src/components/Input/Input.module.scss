@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: local('Manrope'),
+    url('../../assert/font/manrope/Manrope-Regular.woff2') format('woff2')
+
+}
+
+.inputCustom {
+    display: block;
+    outline: none;
+    position: relative;
+    width: 410px;
+    height: 56px;
+    border: 0;
+    padding: 0 0 0 18px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    color: #231F20;
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+
+    &:focus {
+        border: 1px solid #009CB4;
+        border-radius: 5px;
+    }
+    &::-webkit-input-placeholder {
+        font-family: 'Manrope-Regular', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #C6C6C6;
+    }
+    &.error{
+        border: 1px solid #E0371F;
+        color: #E0371F;
+
+    }
+    &.confirm{
+        border: 1px solid #00B247;
+    }
+    &_search {
+        width: 210px;
+        height: 28px;
+        padding: 10px 0 10px 40px;
+        background: #F9F9FB;
+
+        &:focus {
+            border: 1px solid #009CB4;
+            border-radius: 5px;
+        }
+    }
+    &_profile{
+        width: 350px;
+        height: 54px;
+    }
+}
+
+.inputLabel {
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #676A71;
+
+    p {
+        margin: 5px;
+    }
+
+    &:focus-within p {
+        color: #009CB4;
+    }
+    &.error{
+        p {
+            color:#E0371F;
+        }
+    }
+    &.confirm{
+        p {
+            color:#4D4D4F;
+        }
+    }
+}
+.confirmImg{
+    position: absolute;
+    margin: -40px 0 0 460px;
+}
+

@@ -1,0 +1,81 @@
+.profileWrap {
+    display: flex;
+    justify-content: start;
+}
+.profileMenuWrap{
+    margin-top: 80px;
+}
+.profileFormWrap{
+    margin: 170px 0 0 83px;
+}
+.formWrap{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #EDEDF4;
+    border-radius: 3px;
+}
+.formColumnWrap{
+    margin-right: 30px;
+}
+.inputWrap{
+    position: relative;
+    margin-top: 15px;
+}
+.passwordWrap{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #EDEDF4;
+    border-radius: 3px;
+}
+.buttonWrap{
+    margin-top: 36px;
+}
+.menuWrap{
+    margin-top: 40px;
+}
+.user{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #EDEDF4;
+    border-radius: 3px;
+    padding-bottom: 38px;
+    img{
+        width: 64px;
+        height: 64px;
+        margin-right: 20px;
+    }
+}
+.labelInput{
+    color:#A8AAAE;
+}
+.basicDataHeadingWrap{
+    margin: 36px 0 20px 0;
+}
+.iconProfile{
+    position: relative;
+    svg{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    }
+    &:hover .svg{
+        fill:#009CB4;
+    }
+}
+.iconInput{
+    z-index: 1;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left:90%;
+    background: url(../../assert/icons/UpperArrowGray.svg) no-repeat 50% 50%;
+    border:0;
+    cursor: pointer;
+    &.password{
+        background: url(../../assert/icons/eyeSlash.svg) no-repeat 50% 50%;
+    }
+}
