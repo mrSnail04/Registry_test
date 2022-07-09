@@ -1,9 +1,10 @@
 .container {
+  display: flex;
   position: relative;
   justify-content: center;
-  max-width: 430px;
   width: 100%;
-  margin: 0 auto 80px;
+  height: 100%;
+  background-color: #FFFFFF;
 }
 .inputWrap{
   margin-bottom: 20px;

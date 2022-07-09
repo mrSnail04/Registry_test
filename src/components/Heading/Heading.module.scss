@@ -7,15 +7,18 @@
 .root{
     color: #231F20;
     text-align: center;
-    font-family: 'Manrope-Bold', sans-serif;
+    font-family: 'Manrope-Regular', sans-serif;
     font-style: normal;
 }
 
 .level1{
     margin: 0;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 1.23;
+    letter-spacing: 0.07em;
+    font-family: 'Manrope-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
 }
 
 .level2{

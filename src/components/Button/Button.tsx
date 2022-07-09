@@ -19,8 +19,14 @@ export type ButtonProps = {
     warning?: boolean,
 }
 
-export const Button = ({ name, warning, onClick,view = ButtonTypes.Primary }: ButtonProps) => (
-    <button onClick={onClick} className={cn( styles.button, styles[`button_${view}`],{[styles.warning]:warning})}>
+export const Button = ({ name, warning, className, onClick,view = ButtonTypes.Primary }: ButtonProps) => (
+    <button onClick={onClick} className={
+        cn(
+            className,
+            styles.button,
+            styles[`button_${view}`],
+            {[styles.warning]:warning},
+        )}>
         <span>
             {name}
         </span>

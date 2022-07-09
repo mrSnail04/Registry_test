@@ -1,4 +1,25 @@
+.root{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.layout{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1400px;
+    margin: auto;
+}
 .container {
     display: flex;
     justify-content: center;
-}
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #EDEDF4;
+    min-height: calc(100vh - 563px);
+};

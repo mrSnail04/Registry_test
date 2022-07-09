@@ -9,6 +9,7 @@ export enum CustomInputTypes {
     Password = 'password',
     Search = 'search',
     Profile = 'profile',
+    MenuSearch = 'menuSearch',
 }
 
 export type CustomInputProps = {

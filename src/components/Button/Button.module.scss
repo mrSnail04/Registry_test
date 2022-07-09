@@ -10,12 +10,13 @@
     cursor: pointer;
     span {
         text-align: center;
-        font-family: 'Manrope-Regular', sans-serif;
+        font-family: 'Manrope-Bold', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 25px;
         color: #FFFFFF;
+        letter-spacing: 0.01em;
     }
 
     &_primary {

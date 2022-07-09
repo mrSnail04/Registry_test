@@ -8,13 +8,17 @@ import styles from './Layout.module.scss';
 
 export const Layout = () => {
     return(
-        <>
-            <Header/>
-            <div className={styles.container}>
-                <Outlet/>
+        <div className={styles.root}>
+            <div className={styles.layout}>
+                <Header/>
+                <div className={styles.container}>
+                    <Outlet/>
+                </div>
+                <Footer/>
             </div>
-            <Footer/>
-        </>
+        </div>
+
+
 
     )
 };

@@ -11,6 +11,7 @@
     position: relative;
     width: 410px;
     height: 56px;
+    box-sizing: border-box;
     border: 0;
     padding: 0 0 0 18px;
     background: #F6F6F9;
@@ -25,6 +26,7 @@
     &:focus {
         border: 1px solid #009CB4;
         border-radius: 5px;
+        padding-left: 17px;
     }
     &::-webkit-input-placeholder {
         font-family: 'Manrope-Regular', sans-serif;
@@ -37,6 +39,7 @@
     &.error{
         border: 1px solid #E0371F;
         color: #E0371F;
+        padding-left: 17px;
 
     }
     &.confirm{
@@ -44,21 +47,33 @@
     }
     &_search {
         width: 210px;
-        height: 28px;
+        height: 48px;
         padding: 10px 0 10px 40px;
         background: #F9F9FB;
 
         &:focus {
             border: 1px solid #009CB4;
             border-radius: 5px;
+            padding-left: 39px;
         }
     }
     &_profile{
         width: 350px;
         height: 54px;
     }
+    &_menuSearch{
+        width: 450px;
+        height: 56px;
+        padding: 10px 0 10px 49px;
+        background: #FFFFFF;
+        border-radius: 5px 0 0 5px;
+        &:focus {
+            border: 1px solid #009CB4;
+            border-radius: 5px;
+            padding-left: 48px;
+        }
+    }
 }
-
 .inputLabel {
     font-family: 'Manrope-Regular', sans-serif;
     font-style: normal;

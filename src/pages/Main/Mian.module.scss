@@ -1,15 +1,91 @@
-.root {
+.root{
     width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f0ad4e;
+    background: #FBFBFB;
 }
-
 .mainWrap {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 80px auto 80px auto;
+    img{
+        margin-left: 215px;
+    }
+}
+.iconWrap{
+    margin-right: 10px;
+}
+.inputWrap{
+    position: relative;
+}
+.findButtonWrap{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    width: 120px;
+    height: 56px;
+}
+.headingInformationWrap{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 450px;
+    height: 442px;
+
+}
+.headingRegistry{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tableWrap{
+    width: 1170px;
+    margin-top: 40px;
+    border-top: 1px solid #EDEDF4;
+    border-radius: 3px;
+}
+.registryTableWrap{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.formSearchWrap{
+    margin-top: 40px;
+}
+.registryTable{
+    justify-content: center;
+    width: 1170px;
+    margin-top: 80px;
+}
+.text{
+    font-family: 'Manrope-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4D4D4F;
+    margin: 20px 0 0 0;
+    span{
+        color: #009CB4;
+    }
+    &_light {
+        color: #676A71;
+    }
+}
+.headingInformation{
+    width: 450px;
+    height: 198px;
+    text-align: start;
+}
+.submitSearchIcon{
+    z-index: 1;
+    position: absolute;
+    top:16px;
+    left:15px;
+    width: 24px;
+    height: 24px;
+    background: url(../../assert/icons/Search.svg) no-repeat 50% 50%;
+    border:0;
+    cursor: pointer;
 }
