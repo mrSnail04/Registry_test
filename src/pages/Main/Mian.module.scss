@@ -32,12 +32,10 @@
     flex-direction: column;
     width: 450px;
     height: 442px;
-
 }
 .headingRegistry{
     display: flex;
     justify-content: space-between;
-
 }
 .tableWrap{
     width: 1170px;
@@ -52,6 +50,9 @@
 }
 .formSearchWrap{
     margin-top: 40px;
+}
+.newsWrap{
+    margin: 80px 115px 0 115px;
 }
 .registryTable{
     justify-content: center;

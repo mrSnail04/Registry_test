@@ -2,12 +2,13 @@ import React, {FormEvent, useState} from 'react';
 import cover from '../../assert/images/3dOfficeWork.png';
 import filter from '../../assert/icons/filter.svg';
 import threeDotsVertical from '../../assert/icons/threeDotsVertical.svg';
-import styles from './Mian.module.scss';
-import Heading, {HeadingLevel} from "../../components/Heading/Heading";
-import {Table} from "../../components/Table/Table";
+import Heading, {HeadingLevel} from '../../components/Heading/Heading';
+import {Table} from '../../components/Table/Table';
 import cn from 'classnames';
-import {CustomInput, CustomInputTypes} from "../../components/Input/Input";
-import Button, {ButtonTypes} from "../../components/Button/Button";
+import {CustomInput, CustomInputTypes} from '../../components/Input/Input';
+import Button, {ButtonTypes} from '../../components/Button/Button';
+import {News} from '../../components/News/News';
+import styles from './Mian.module.scss';
 
 const Main = () => {
 
@@ -86,18 +87,12 @@ const Main = () => {
                         </div>
                     </div>
                     <div className={styles.tableWrap}>
-                        <Table
-                            titleNumber={'#1'}
-                            titleName={'Система управления базами данных «Ред База Данных»'}
-                            titleCode={'02.09'}
-                            titleClass={'Системы управления базами данных'}
-                            titleDate={'29.01.2016'}
-                            titleWebsite={'#'}
-                        />
+                        <Table/>
                     </div>
                 </div>
-
-
+            </div>
+            <div className={styles.newsWrap}>
+                <News/>
             </div>
         </div>
     )

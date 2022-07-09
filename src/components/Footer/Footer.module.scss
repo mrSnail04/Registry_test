@@ -1,5 +1,6 @@
 .footerWrap{
     height: 400px;
+
     background-color: #FFFFFF;
     padding-top:80px;
 }
@@ -12,6 +13,7 @@
     margin-bottom: 20px;
 }
 .endLine{
+    width: 1170px;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
@@ -28,11 +30,10 @@
     width: 250px;
 }
 .developerBlockWrap{
-    margin-right: 40px;
-
+    margin-right: 39px;
 }
 .informationBlockWrap{
-    margin-right: 75px;
+    margin-right: auto;
 }
 .supportBlockWrap{
     width: 250px;

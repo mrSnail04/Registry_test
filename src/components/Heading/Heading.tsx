@@ -14,12 +14,13 @@ export enum HeadingLevel {
 export enum Color {
     Gray = 'gray',
     Black = 'black',
+    Blue ='blue',
 }
 
 export type HeadingProps = {
     level: HeadingLevel,
     className?: string,
-    children: string,
+    children: JSX.Element|JSX.Element[]|string,
     id?: string,
     color?: Color,
 }
