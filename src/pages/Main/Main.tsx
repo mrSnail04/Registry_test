@@ -8,6 +8,7 @@ import cn from 'classnames';
 import {CustomInput, CustomInputTypes} from '../../components/Input/Input';
 import Button, {ButtonTypes} from '../../components/Button/Button';
 import {News} from '../../components/News/News';
+
 import styles from './Mian.module.scss';
 
 const Main = () => {
